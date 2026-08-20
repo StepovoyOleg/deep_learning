@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: oil-gas-analyst
+Version: 0.1.0
+Summary: Source-grounded oil and gas market analyst
+Requires-Python: >=3.12
+Requires-Dist: langgraph<1.0,>=0.2
+Requires-Dist: openai>=1.40
+Requires-Dist: pydantic>=2.7
+Requires-Dist: pydantic-settings>=2.3
+Requires-Dist: qdrant-client>=1.10
+Requires-Dist: sentence-transformers>=3.0
+Requires-Dist: rank-bm25>=0.2.2
+Requires-Dist: pypdf>=4.2
+Requires-Dist: tavily-python>=0.5
+Requires-Dist: statsmodels>=0.14
+Requires-Dist: pandas>=2.2
+Requires-Dist: streamlit>=1.36
+Requires-Dist: numpy>=1.26
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: pytest-cov>=5; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"

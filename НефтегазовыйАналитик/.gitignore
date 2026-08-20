@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+qdrant_storage/
+data/*.csv
+data/reports/*.pdf
+data/reports/**/*.pdf
+data/prices/*.xls
+!data/reports/.gitkeep
